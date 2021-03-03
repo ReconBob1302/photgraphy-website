@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RFW Photography</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1>RFW Photography</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="booking.html">Book It!</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Fun Photography</h1>
+                <p>RFW Photography.com - a premiere website for photography. Send an information request to book a sitting today! I photograph graduations, family portraits, individual portraits, pets, babies, military portraits, on-location of your choice. Contact me for more information.</p>
+                    <a href="booking.html" class="btn btn-outline" id="read-more" style="color: #fff;">Read More</a>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Request Information</h2>
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" id="" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" id="" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" id="" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h2 class="stats-heading text-center my-1">RFW Photography.com "Picture It!".</h2>
+ 
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-user fa-3x"></i>
+                        <h3></h3>
+                        <p class="text-secondary">Book your photo session now.</p>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-camera fa-3x"></i>
+                    <ul class="flex-column flex-wrap photo-ops">    
+                        <li>Baby Memories</li>
+                        <li>Military Portraits</li>
+                        <li>Family Memories/Portraits</li>
+                        <li>Pet Babies Portraits</li>
+                        <li>Pregnancy Portraits</li>
+                        <li>Sports Candids</li>
+                        <li>Beach Portraits/Candids</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fas fa-user-graduate fa-3x"></i>
+                        <h3>Sessions ~ $150/hr</h3>
+                        <p class="text-secondary">Includes 10-20 photos, with digital copies</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Film -->
+    <section>
+        <div class="film">
+            <div class="container grid">
+                <img class="film-image" src="images/kodak-film.jpg" alt="Kodak Film Image">
+                <div class="card">
+                    <img src="images/portrait-.jpg" alt="">
+                    <h3 class="text-center my-3">Just email or call to schedule a sitting.</h3>
+                </div>
+                <div class="card">
+                    <img src="images/portrait-1664.jpg" alt="">
+                    <h3 class="text-center my-3">Sessions start at 1 hour, and go up to half-day.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud -->
+
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2>Fun Photography</h2>
+                <p class="lead my-1">Have your pictures taken and have fun while doing it!</p>
+                <a href="features.html" class="btn btn-dark">Read More</a>
+            </div>
+            <div class="cloud-img-wrapper"><img class="cloud-img" src="images/Cloud-6234.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <!-- Portraits Strip -->
+    <section class="portrait-strip">
+        <div class="container flex flex-wrap">
+            <div class="card">
+                <h4>Family</h4>
+                <img src="images/portrait-9330.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>Family</h4>
+                <img src="images/portrait-0380.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>Pets</h4>
+                <img src="images/portrait-0136.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>Pregnancy</h4>
+                <img src="images/portrait-6944.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>Beach</h4>
+                <img src="images/portrait-8675.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>Pets</h4>
+                <img src="images/portrait-5649.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>Family</h4>
+                <img src="images/portrait-9607.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>RFW Photography</h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="booking.html">Book It!</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
